@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain_community
+sumy
+transformers
+lexrank
+datasets
+rouge
+rouge_score
+nltk
+langchain-huggingface
+python-docx
+
