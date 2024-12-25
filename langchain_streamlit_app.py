@@ -41,7 +41,7 @@ prompt = PromptTemplate(
 llm = HuggingFaceHub(
     repo_id="facebook/bart-large-cnn",
     task="summarization",
-    huggingfacehub_api_token="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",  # private token : Kamran Mustafa (Hugging face)
+    huggingfacehub_api_token=st.secrets["huggingface_token"],  # private token : Kamran Mustafa (Hugging face)
     model_kwargs={
         "max_length": 786,  # Default max length
         "min_length": 20,   # Default min length
