@@ -1,13 +1,12 @@
-streamlit
-langchain
-langchain_community
-sumy
-transformers
-lexrank
-datasets
-rouge
-rouge_score
-nltk
-langchain-huggingface
-python-docx
-
+streamlit==1.20.0
+langchain==0.0.196  # Ensure this version or a compatible one
+langchain_community==0.0.1
+sumy==0.8.1
+transformers==4.28.1
+lexrank==0.1.0
+datasets==2.8.0  # Compatible version with HuggingFace
+rouge==1.0.0  # Alternatively, you can use rouge-score
+rouge_score==0.1.2
+nltk==3.8.1
+langchain-huggingface==0.0.1  # Add HuggingFace integration for LangChain
+python-docx==0.8.11
