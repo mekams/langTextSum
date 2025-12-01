@@ -1,5 +1,5 @@
 streamlit
-langchain
+langchain==0.0.12
 langchain_community
 sumy
 transformers
@@ -10,5 +10,6 @@ rouge_score
 nltk
 langchain-huggingface
 python-docx
+
 
 
